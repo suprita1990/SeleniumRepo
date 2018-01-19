@@ -51,9 +51,15 @@ public class SeleniumRunner {
 		driver.get("https://www.homedepot.com/");		
 	}
 
+	public static void testGIT() {
+		System.out.println("Test GIT");
+	}
+	
 	public static void quitDriver() {
 		driver.quit();
 	}
+	
+	
 	
 	
 }
