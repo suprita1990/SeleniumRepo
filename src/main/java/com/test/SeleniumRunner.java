@@ -15,6 +15,7 @@ public class SeleniumRunner {
 	public static void main(String[] args) {
 		
 		System.out.println("hello");
+		System.out.println("helloworld");
 		setWebDriver();
 		openHomePage();
 		/*driver.findElement(By.id("headerSearch")).sendKeys("Hammer");
